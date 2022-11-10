@@ -1,0 +1,247 @@
+/* global */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ul {
+	list-style: none;
+}
+
+ul li {
+	text-transform: capitalize;
+	margin-top: 10px;
+	font-size: 17px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	width: 95%;
+	margin: 0 auto;
+}
+
+/* colors */
+.primary-bg {
+	background-color: #114c98;
+}
+
+.secondary-bg {
+	background-color: rgb(122, 122, 122);
+}
+
+.content-bg {
+	background-color: #f1f1f1;
+}
+
+.success-bg {
+	background-color: #258647;
+}
+
+.light-primary-bg {
+	background-color: #25a3e0;
+}
+
+.lightest-primary-bg {
+	background-color: #66c1ee;
+}
+
+.transparent-bg {
+	background-color: transparent;
+}
+
+.light-bg {
+	background-color: #fff;
+}
+
+.text-light {
+	color: #fff;
+}
+
+.text-success {
+	color: #258647;
+}
+
+.text-secondary {
+	color: rgb(77, 77, 77);
+}
+
+.text-primary {
+	color: #114c98;
+}
+
+.text-primary-light {
+	color: #25a3e0;
+}
+
+/* font */
+.fs-1 {
+	font-size: 17px;
+}
+
+.fs-2 {
+	font-size: 20px;
+}
+
+.fs-3 {
+	font-size: 23px;
+}
+
+.fs-4 {
+	font-size: 26px;
+}
+
+.fs-5 {
+	font-size: 30px;
+}
+
+.fw-b {
+	font-weight: bold;
+}
+
+.cursor {
+	cursor: pointer;
+}
+
+/* flex */
+.d-flex {
+	display: flex;
+}
+
+.flex-direction {
+	flex-direction: column;
+}
+
+.gap-20 {
+	gap: 20px;
+}
+
+.gap-10 {
+	gap: 10px;
+}
+
+.flex-between {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/* input */
+.form-control {
+	background-color: transparent;
+	border: none;
+	outline: none;
+	color: #fff;
+}
+
+.form-control::placeholder {
+	color: #fff;
+}
+
+/* divider */
+.divider {
+	width: 100%;
+	height: 2px;
+	margin: 20px 0;
+	z-index: 99;
+}
+
+/* border */
+.border-md {
+	border-radius: 8px;
+}
+
+.border-lg {
+	border-radius: 12px;
+}
+
+.border-xl {
+	border-radius: 16px;
+}
+
+.border-full {
+	border-radius: 50%;
+}
+
+/* width */
+.w-50 {
+	width: 50%;
+}
+
+.w-40 {
+	width: 40%;
+}
+
+.w-60 {
+	width: 60%;
+}
+
+.w-400 {
+	width: 400px;
+}
+
+.w-100 {
+	width: 100%;
+}
+
+/* height  */
+
+.h-200 {
+	height: 180px;
+}
+
+/* margin */
+
+.mt-1 {
+	margin-top: 10px;
+}
+
+.mt-2 {
+	margin-top: 15px;
+}
+
+.mt-3 {
+	margin-top: 20px;
+}
+
+.mt-4 {
+	margin-top: 25px;
+}
+
+.mt-5 {
+	margin-top: 30px;
+}
+
+/* padding */
+.p-20 {
+	padding: 20px;
+}
+
+/* button */
+.btn {
+	padding: 10px 20px;
+	border-radius: 8px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	text-transform: uppercase;
+	color: #fff;
+	transition: opacity 0.4s ease;
+}
+
+.btn-border {
+	border: 1px solid #fff;
+}
+
+.btn:hover {
+	opacity: 0.9;
+}
+
+/* square */
+.square {
+	width: 20px;
+	height: 20px;
+}
